@@ -17,6 +17,9 @@ class ContentViewModel: ObservableObject {
             player.play()
         }
     }
+    func stopSound() {
+        player.pause()
+    }
 
     func getVideoURL() -> URL? {
         if let url = Bundle.main.url(forResource: "ManWalkingVideo2", withExtension: "mp4") {

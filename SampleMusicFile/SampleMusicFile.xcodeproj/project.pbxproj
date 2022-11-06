@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA7096362917C3FA00995266 /* ManWalkingMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CA7096352917C3FA00995266 /* ManWalkingMusic.m4a */; };
 		CA7096372917C8D500995266 /* ManWalkingVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F8C202442917BD1A00584084 /* ManWalkingVideo.mp4 */; };
+		CA7096412917E53900995266 /* BicycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7096402917E53900995266 /* BicycleView.swift */; };
 		F8336006291766F9008BCCB3 /* SampleMusicFileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8336005291766F9008BCCB3 /* SampleMusicFileApp.swift */; };
 		F8336008291766F9008BCCB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8336007291766F9008BCCB3 /* ContentView.swift */; };
 		F833600A291766FA008BCCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8336009291766FA008BCCB3 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		CA7096352917C3FA00995266 /* ManWalkingMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ManWalkingMusic.m4a; sourceTree = "<group>"; };
+		CA7096402917E53900995266 /* BicycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleView.swift; sourceTree = "<group>"; };
 		F8336002291766F9008BCCB3 /* SampleMusicFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMusicFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8336005291766F9008BCCB3 /* SampleMusicFileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMusicFileApp.swift; sourceTree = "<group>"; };
 		F8336007291766F9008BCCB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				F8336005291766F9008BCCB3 /* SampleMusicFileApp.swift */,
 				F8336007291766F9008BCCB3 /* ContentView.swift */,
 				F8C2023F2917B0AA00584084 /* ContentViewModel.swift */,
+				CA7096402917E53900995266 /* BicycleView.swift */,
 				F8336009291766FA008BCCB3 /* Assets.xcassets */,
 				F833600B291766FA008BCCB3 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				F8336008291766F9008BCCB3 /* ContentView.swift in Sources */,
 				F8336006291766F9008BCCB3 /* SampleMusicFileApp.swift in Sources */,
+				CA7096412917E53900995266 /* BicycleView.swift in Sources */,
 				F8C202402917B0AA00584084 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
